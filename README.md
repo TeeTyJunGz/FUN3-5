@@ -38,13 +38,14 @@ To run the motor simulation:
    ```bash
    ros2 launch motorsim motorsim.launch.py
    ```
-   A standard launch will run with 3 motor attached (namespace)
+- A standard launch will run with 3 motor attached (namespace)
 
 Check position of motor:
    ```bash
    ros2 topic echo <motor_name>/motor_position
    ```
-   Replace <motor_name> with your assign motor name in **Launch file**
+- Replace <motor_name> with your assign motor name in **Launch file**
+   
 Example:
    ```bash
    ros2 topic echo motor_6551/motor_position
