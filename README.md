@@ -50,3 +50,25 @@ Example:
    ```bash
    ros2 topic echo motor_6551/motor_position
    ```
+
+## **Issues**
+### Path error while colcon build
+   1. Go to directory:
+      ```bash
+      cd FUN3-5
+      ```
+      
+   2. Remove **Build**, **Install** and **Log** Folder:
+      ```bash
+      rm -rf build install log
+      ```
+
+   3. Build the workspace:
+      ```bash
+      colcon build
+      ```
+      
+   4. Source the workspace:
+      ```bash
+      source install/setup.bash
+      ```
